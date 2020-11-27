@@ -4,54 +4,55 @@ class Human{
         this.gender = gender;
         this.weight = weight;
     }
-    isMale(){
-        if (this.gender.toLowerCase() === 'male'){
+    isMale() {
+        return this.gender;
+    }
+
+    setGender(g){
+        this.gender = g;
+    }
+
+    checkApple(apple){
+        if (apple.isEmpty()){
+            return false;
+        }else{
             return true;
         }
-        return false;
-    }
-
-    setGender(gender){
-        this.gender = gender;
-    }
-
-    checkApple(){
-        if (apple.isEmpty){
-            return false;
-        }
-        return true;
     }
 
     eat(apple){
         if (this.checkApple(apple)){
-            this.increaseWeight(2);
-            apple.decrease(1);
-        }else {
-            this.say("con gi đau ma an : '>")
+            apple.decrease();
+            let weight = this.weight + 1;
+            this.setWeight(weight);
         }
     }
 
-    say(content){
-        alert(content);
+    say(str){
+        console.log(str);
     }
-
-    increaseWeight(value){
-        this.weight += value;
+    getName(){
+    return this.name;
     }
-
+    setName(str){
+        this.name = name;
+    }
     getWeight(){
         return this.weight;
+    }
+    setWeight(weight){
+        this.weight = weight;
     }
 
 }
 
-class apple {
+class Apple {
     constructor(weight) {
-        this.weight = weight;
+        this.weight = 10;
     }
 
-    decrease(value){
-        this.weight -= value;
+    decrease(){
+        this.weight -= 1;
     }
 
     getWeight(){
@@ -59,10 +60,11 @@ class apple {
     }
 
     isEmpty(){
-        if (this.weight > 0){
+        if (this.getWeight()) {
             return false;
+        }else{
+            return true;
         }
-        return true;
     }
 
 }

@@ -5,12 +5,77 @@
     <title>phat-trien-ung-dung-nho-mo-phong-cau-chuyen-adam-eva</title>
     <script src="Human.js"></script>
 </head>
-<body>
-<script>
-    let adam = new Human('Adam','Male',50);
-    let eva = new Human('eva','female',50);
-    let apple = new Human("Táo",10);
+<!--<style>
+    div{
+        display: inline-block;
+        border: 1px solid;
+        padding: 20px;
+    }
+</style>-->
 
+<body>
+<!--
+<div class="Human1">
+        <p id="Human-name1"></p>
+        <p id="Human-gender1"></p>
+        <p id="Human-Weight1"></p>
+</div>
+<div class="apple">
+    <p id="apple-weight"></p>
+</div>
+<div class="Human2">
+    <p id="Human-name2"></p>
+    <p id="Human-gender2"></p>
+    <p id="Human-Weight2"></p>
+</div>
+<br>
+<button onclick="eat(adam,apple)">adam Apple</button>
+<button onclick="eat(eva,apple)">eva Apple</button>
+
+-->
+<script>
+    let adam = new Human('Adam', 'Male', 50);
+    let eva = new Human('eva', 'female', 50);
+    let numApples = Math.floor((Math.random() * (100 - 10)) + 10);
+    let apples = [];
+
+    /*function displayHuman(Human,id) {
+        document.getElementById('human-name'+id).innerHTML = Human.name;
+        document.getElementById('human-gender'+id).innerHTML = Human.gender;
+        document.getElementById('human-weight'+id).innerHTML = Human.weight;
+    }
+
+    function displayApple(apple) {
+        document.getElementById('apple-name').innerText = apple.name;
+        document.getElementById('apple-weight').innerText = apple.weight;
+    }
+
+    function displayAll() {
+        displayHuman(adam,1);
+        displayHuman(eva,2);
+        displayApple(apple);
+    }
+
+    function eat(Human,apple) {
+        Human.eat(apple);
+        displayAll();
+    }
+    displayAll();*/
+
+    for (let i = 0; i < numApples; i++) {
+        apples.push(new Apple());
+    }
+
+    for (let i = 0; i < numApples; i++) {
+        console.log("ăn rồi " + i + " / " + (numApples - 1) + " Quả táo!");
+        while (!(apples[i].isEmpty())) {
+            adam.eat(apples[i]);
+            eva.eat(apples[i]);
+            eva.say("táo còn: " + apples[i].getWeight())
+        }
+    }
+
+    console.log("Adam:" + adam.getWeight() + "| Eva:" + eva.getWeight())
 
 </script>
 </body>

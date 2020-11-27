@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phat-tren-chuong-trinh-the-hien-su-tuong-tac-giua-hai-doi-tuong-cong-tac-va-bong-den</title>
+    <script src="cong-tac-va-bong-den.js"></script>
+</head>
+<body>
+<script>
+    let button = new SwitchButton();
+    let lamp = new Lamp();
+
+    button.connectToLamp(lamp);
+    for (let i=0;i<5;i++){
+        button.switchOn();
+        button.switchOff();
+    }
+</script>
+</body>
+</html>

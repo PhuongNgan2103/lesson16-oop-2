@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb2ffc2-6ec2-4be8-9805-147fd4e1bc35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bt/game-don-gian-di-chuyen-doi-tuong/objects" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt/game-don-gian-di-chuyen-doi-tuong/objects/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt/game-don-gian-di-chuyen-doi-tuong/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bt/game-don-gian-di-chuyen-doi-tuong/objects/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt/phat-trien-chuong-trinh-the-hien-su-tuong-tac-giua-hai-doi-tuong-cong-tac-vaf-bong-den/cong-tac-va-bong-den.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt/phat-trien-chuong-trinh-the-hien-su-tuong-tac-giua-hai-doi-tuong-cong-tac-vaf-bong-den/phat-trien-chuong-trinh-the-hien-su-tuong-tac-giua-hai-doi-tuong-cong-tac-va-bong-den.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/phat-trien-tro-choi-caro/phat-trien-tro-choi-caro.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt/phat-trien-tro-choi-caro/phat-trien-tro-choi-caro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/phat-trien-ung-dung-nho-mo-phong-cau-chuyen-adam-eva/Human.js" beforeDir="false" afterPath="$PROJECT_DIR$/bt/phat-trien-ung-dung-nho-mo-phong-cau-chuyen-adam-eva/Human.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/phat-trien-ung-dung-nho-mo-phong-cau-chuyen-adam-eva/phat-trien-ung-dung-nho-mo-phong-cau-chuyen-adam-eva.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt/phat-trien-ung-dung-nho-mo-phong-cau-chuyen-adam-eva/phat-trien-ung-dung-nho-mo-phong-cau-chuyen-adam-eva.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -73,6 +78,8 @@
       <workItem from="1606393154393" duration="1962000" />
       <workItem from="1606405279768" duration="111000" />
       <workItem from="1606405508149" duration="1512000" />
+      <workItem from="1606407051399" duration="410000" />
+      <workItem from="1606437146987" duration="12709000" />
     </task>
     <servers />
   </component>
@@ -90,5 +97,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/bt/game-don-gian-di-chuyen-doi-tuong" />
+      <path value="$PROJECT_DIR$/bt/game-don-gian-di-chuyen-doi-tuong/objects" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1606407183495">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606407183495" />
   </component>
 </project>
